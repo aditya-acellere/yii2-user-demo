@@ -1,0 +1,7 @@
+host='yii2-user'
+path='sites/yii2-user'
+
+[deploy]
+git checkout master
+git pull origin master
+composer install
