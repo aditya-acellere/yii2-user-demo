@@ -36,6 +36,7 @@ AppAsset::register($this);
                 'options' => ['class' => 'navbar-nav navbar-right'],
                 'items' => [
                     ['label' => 'About', 'url' => ['/site/about']],
+                    ['label' => 'My profile', 'url' => ['/user/profile'], 'visible' => !Yii::$app->user->isGuest],
                     ['label' => 'Settings', 'url' => ['/user/settings/profile'], 'visible' => !Yii::$app->user->isGuest],
                     Yii::$app->user->isGuest ?
                         ['label' => 'Login', 'url' => ['/user/security/login']] :
