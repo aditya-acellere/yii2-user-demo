@@ -1,16 +1,13 @@
 <?php
 
-use yii\helpers\ArrayHelper;
+/**
+ * Config for web application.
+ */
 
-$config = [
-    'id'         => 'yii2-user-demo',
-    'name'       => 'Yii2-user',
-    'basePath'   => dirname(__DIR__),
-    'bootstrap'  => ['log'],
+return [
+    'id'   => 'yii2-user-demo',
+    'name' => 'Yii2-user',
     'components' => [
-        'cache' => [
-            'class' => 'yii\caching\FileCache',
-        ],
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
@@ -34,10 +31,6 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName'  => false,
         ],
-        'db'     => require(__DIR__ . '/local/db.php'),
-        'mailer' => require(__DIR__ . '/local/mailer.php'),
     ],
 ];
-
-return ArrayHelper::merge($config, require(__DIR__ . '/local/web.php'));
 
