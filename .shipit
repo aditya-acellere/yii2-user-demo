@@ -5,3 +5,4 @@ path='sites/yii2-user'
 git checkout master
 git pull origin master
 composer install
+php yii migrate/up --interactive=0 --migrationPath=@vendor/dektrium/yii2-user/migrations

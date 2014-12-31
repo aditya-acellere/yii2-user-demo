@@ -9,18 +9,18 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": "2.0.0",
-        "yiisoft/yii2-swiftmailer": "2.0.0",
-        "yiisoft/yii2-authclient": "2.0.0",
-        "yiisoft/yii2-bootstrap": "2.0.0",
+        "yiisoft/yii2": "~2.0.0@dev",
+        "yiisoft/yii2-swiftmailer": "~2.0.0@dev",
+        "yiisoft/yii2-authclient": "~2.0.0@dev",
+        "yiisoft/yii2-bootstrap": "~2.0.0@dev",
         "dektrium/yii2-user": "0.8.*@dev",
         "codeception/verify": "*",
         "codeception/specify": "*"
     },
     "require-dev": {
-        "yiisoft/yii2-codeception": "2.0.0",
-        "yiisoft/yii2-debug": "2.0.0",
-        "yiisoft/yii2-gii": "2.0.0"
+        "yiisoft/yii2-codeception": "~2.0.0@dev",
+        "yiisoft/yii2-debug": "~2.0.0@dev",
+        "yiisoft/yii2-gii": "~2.0.0@dev"
     },
     "scripts": {
         "post-create-project-cmd": [
