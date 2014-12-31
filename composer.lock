@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "090c161e3d856dd82054c50a760ec0f7",
+    "hash": "772aedb068e23a2717ca5101584f4369",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -343,12 +343,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dektrium/yii2-user.git",
-                "reference": "d152db0963397a3d17e8dcceadf0649af130e0cb"
+                "reference": "98559f507d9a10dee1f5d34ffc39518c01429f2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dektrium/yii2-user/zipball/d152db0963397a3d17e8dcceadf0649af130e0cb",
-                "reference": "d152db0963397a3d17e8dcceadf0649af130e0cb",
+                "url": "https://api.github.com/repos/dektrium/yii2-user/zipball/98559f507d9a10dee1f5d34ffc39518c01429f2c",
+                "reference": "98559f507d9a10dee1f5d34ffc39518c01429f2c",
                 "shasum": ""
             },
             "require": {
@@ -365,8 +365,8 @@
             "extra": {
                 "bootstrap": "dektrium\\user\\Bootstrap",
                 "branch-alias": {
-                    "dev-master": "0.8.x-dev",
-                    "dev-develop": "0.9.x-dev"
+                    "dev-master": "0.9.x-dev",
+                    "dev-develop": "1.0.x-dev"
                 },
                 "asset-installer-paths": {
                     "npm-asset-library": "vendor/npm",
@@ -396,7 +396,7 @@
                 "yii2",
                 "yii2-user"
             ],
-            "time": "2014-12-30 18:21:00"
+            "time": "2014-12-30 19:36:11"
         },
         {
             "name": "ezyang/htmlpurifier",
