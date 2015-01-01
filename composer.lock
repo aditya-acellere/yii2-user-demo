@@ -343,12 +343,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dektrium/yii2-user.git",
-                "reference": "98559f507d9a10dee1f5d34ffc39518c01429f2c"
+                "reference": "2931705fcf5514c35122107e9d6761ea8620b519"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dektrium/yii2-user/zipball/98559f507d9a10dee1f5d34ffc39518c01429f2c",
-                "reference": "98559f507d9a10dee1f5d34ffc39518c01429f2c",
+                "url": "https://api.github.com/repos/dektrium/yii2-user/zipball/2931705fcf5514c35122107e9d6761ea8620b519",
+                "reference": "2931705fcf5514c35122107e9d6761ea8620b519",
                 "shasum": ""
             },
             "require": {
@@ -396,7 +396,7 @@
                 "yii2",
                 "yii2-user"
             ],
-            "time": "2014-12-30 19:36:11"
+            "time": "2015-01-01 12:00:31"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -543,12 +543,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "273648a762597f54f40854dbdbd728d552681ae6"
+                "reference": "ea384c4e670e6159672410dff10e3a2671e12e9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/273648a762597f54f40854dbdbd728d552681ae6",
-                "reference": "273648a762597f54f40854dbdbd728d552681ae6",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/ea384c4e670e6159672410dff10e3a2671e12e9c",
+                "reference": "ea384c4e670e6159672410dff10e3a2671e12e9c",
                 "shasum": ""
             },
             "require": {
@@ -624,7 +624,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2014-12-30 16:33:53"
+            "time": "2014-12-31 15:55:54"
         },
         {
             "name": "yiisoft/yii2-authclient",
