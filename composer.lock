@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "772aedb068e23a2717ca5101584f4369",
+    "hash": "d8777e1ef783c073042cbd98990d5ab2",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
-            "version": "v3.3.1",
+            "version": "v3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "9a7e365c2c4360335d25246dac11afb1f577210a"
+                "reference": "bcf7dd38b5ab180256e2e4fb5da0369551b3f082"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/9a7e365c2c4360335d25246dac11afb1f577210a",
-                "reference": "9a7e365c2c4360335d25246dac11afb1f577210a",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/bcf7dd38b5ab180256e2e4fb5da0369551b3f082",
+                "reference": "bcf7dd38b5ab180256e2e4fb5da0369551b3f082",
                 "shasum": ""
             },
             "require": {
@@ -102,16 +102,16 @@
         },
         {
             "name": "bower-asset/jquery.inputmask",
-            "version": "3.1.49",
+            "version": "3.1.61",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobinHerbots/jquery.inputmask.git",
-                "reference": "4a0bda47031b9d2074b0c77c3b447df71ed1ca95"
+                "reference": "f2c086411d2557fc485c47afb3cecfa6c1de9ee2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobinHerbots/jquery.inputmask/zipball/4a0bda47031b9d2074b0c77c3b447df71ed1ca95",
-                "reference": "4a0bda47031b9d2074b0c77c3b447df71ed1ca95",
+                "url": "https://api.github.com/repos/RobinHerbots/jquery.inputmask/zipball/f2c086411d2557fc485c47afb3cecfa6c1de9ee2",
+                "reference": "f2c086411d2557fc485c47afb3cecfa6c1de9ee2",
                 "shasum": ""
             },
             "require": {
@@ -147,7 +147,7 @@
                 "form",
                 "input",
                 "inputmask",
-                "jQuery",
+                "jquery",
                 "mask",
                 "plugins"
             ]
@@ -268,87 +268,17 @@
             "time": "2014-12-18 00:45:32"
         },
         {
-            "name": "codeception/specify",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Codeception/Specify.git",
-                "reference": "c615e07ec9b91fce9bc34c91c3ed9c4cb935a502"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/Specify/zipball/c615e07ec9b91fce9bc34c91c3ed9c4cb935a502",
-                "reference": "c615e07ec9b91fce9bc34c91c3ed9c4cb935a502",
-                "shasum": ""
-            },
-            "require": {
-                "myclabs/deep-copy": "~1.1",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Codeception\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Michael Bodnarchuk",
-                    "email": "davert.php@mailican.com"
-                }
-            ],
-            "description": "BDD code blocks for PHPUnit and Codeception",
-            "time": "2014-10-17 00:10:37"
-        },
-        {
-            "name": "codeception/verify",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Codeception/Verify.git",
-                "reference": "f545e1d429b42c15e590cfd7082ed992553f0e77"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/Verify/zipball/f545e1d429b42c15e590cfd7082ed992553f0e77",
-                "reference": "f545e1d429b42c15e590cfd7082ed992553f0e77",
-                "shasum": ""
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/Codeception/function.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Michael Bodnarchuk",
-                    "email": "davert.php@mailican.com"
-                }
-            ],
-            "description": "BDD assertion library for PHPUnit",
-            "time": "2014-11-23 17:37:46"
-        },
-        {
             "name": "dektrium/yii2-user",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dektrium/yii2-user.git",
-                "reference": "2931705fcf5514c35122107e9d6761ea8620b519"
+                "reference": "df25484cc999a58490293df4fdd4209817f6ed86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dektrium/yii2-user/zipball/2931705fcf5514c35122107e9d6761ea8620b519",
-                "reference": "2931705fcf5514c35122107e9d6761ea8620b519",
+                "url": "https://api.github.com/repos/dektrium/yii2-user/zipball/df25484cc999a58490293df4fdd4209817f6ed86",
+                "reference": "df25484cc999a58490293df4fdd4209817f6ed86",
                 "shasum": ""
             },
             "require": {
@@ -396,7 +326,7 @@
                 "yii2",
                 "yii2-user"
             ],
-            "time": "2015-01-01 12:00:31"
+            "time": "2015-02-09 11:35:49"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -444,59 +374,17 @@
             "time": "2013-11-30 08:25:19"
         },
         {
-            "name": "myclabs/deep-copy",
-            "version": "1.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "d93c485e71bcd22df0a994e9e3e03a3ef3a3e3f3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/d93c485e71bcd22df0a994e9e3e03a3ef3a3e3f3",
-                "reference": "d93c485e71bcd22df0a994e9e3e03a3ef3a3e3f3",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "doctrine/collections": "1.*",
-                "phpunit/phpunit": "~4.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "DeepCopy\\": "src/DeepCopy/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Create deep copies (clones) of your objects",
-            "homepage": "https://github.com/myclabs/DeepCopy",
-            "keywords": [
-                "clone",
-                "copy",
-                "duplicate",
-                "object",
-                "object graph"
-            ],
-            "time": "2014-11-20 05:11:17"
-        },
-        {
             "name": "swiftmailer/swiftmailer",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "e29c7b692bae6610b137670d6749151fd6e41608"
+                "reference": "db95cfa68a8bc91d1c54f75c416f481c9a8bd100"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/e29c7b692bae6610b137670d6749151fd6e41608",
-                "reference": "e29c7b692bae6610b137670d6749151fd6e41608",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/db95cfa68a8bc91d1c54f75c416f481c9a8bd100",
+                "reference": "db95cfa68a8bc91d1c54f75c416f481c9a8bd100",
                 "shasum": ""
             },
             "require": {
@@ -535,7 +423,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2014-12-05 14:17:46"
+            "time": "2015-01-18 13:49:36"
         },
         {
             "name": "yiisoft/yii2",
@@ -543,12 +431,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "ea384c4e670e6159672410dff10e3a2671e12e9c"
+                "reference": "2ade9aa0187196c0451289137b7c592946ab6730"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/ea384c4e670e6159672410dff10e3a2671e12e9c",
-                "reference": "ea384c4e670e6159672410dff10e3a2671e12e9c",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/2ade9aa0187196c0451289137b7c592946ab6730",
+                "reference": "2ade9aa0187196c0451289137b7c592946ab6730",
                 "shasum": ""
             },
             "require": {
@@ -624,7 +512,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2014-12-31 15:55:54"
+            "time": "2015-02-09 03:29:40"
         },
         {
             "name": "yiisoft/yii2-authclient",
@@ -632,12 +520,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-authclient.git",
-                "reference": "9a96d6ea197eecaafb9a13d024414fb78fe71a1b"
+                "reference": "60475bb28d3d02e7fe6f64551cc4f583bac57da5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-authclient/zipball/9a96d6ea197eecaafb9a13d024414fb78fe71a1b",
-                "reference": "9a96d6ea197eecaafb9a13d024414fb78fe71a1b",
+                "url": "https://api.github.com/repos/yiisoft/yii2-authclient/zipball/60475bb28d3d02e7fe6f64551cc4f583bac57da5",
+                "reference": "60475bb28d3d02e7fe6f64551cc4f583bac57da5",
                 "shasum": ""
             },
             "require": {
@@ -672,7 +560,7 @@
                 "oauth",
                 "yii2"
             ],
-            "time": "2014-12-07 16:46:05"
+            "time": "2015-01-15 21:01:28"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -680,12 +568,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "1b5ddfc0a5faa907b23add91bf8691fb041492f4"
+                "reference": "d6daff0dc635c87659754b16107843501355eae3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/1b5ddfc0a5faa907b23add91bf8691fb041492f4",
-                "reference": "1b5ddfc0a5faa907b23add91bf8691fb041492f4",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/d6daff0dc635c87659754b16107843501355eae3",
+                "reference": "d6daff0dc635c87659754b16107843501355eae3",
                 "shasum": ""
             },
             "require": {
@@ -718,7 +606,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2014-12-26 18:06:13"
+            "time": "2015-01-20 08:53:09"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -726,12 +614,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-composer.git",
-                "reference": "665091a932d72ec27eb4d0a22f0ea63861648b30"
+                "reference": "7f21221ee85862c83f60c8f74a267e29c9dc6336"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/665091a932d72ec27eb4d0a22f0ea63861648b30",
-                "reference": "665091a932d72ec27eb4d0a22f0ea63861648b30",
+                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/7f21221ee85862c83f60c8f74a267e29c9dc6336",
+                "reference": "7f21221ee85862c83f60c8f74a267e29c9dc6336",
                 "shasum": ""
             },
             "require": {
@@ -765,7 +653,7 @@
                 "extension installer",
                 "yii2"
             ],
-            "time": "2014-12-08 17:50:10"
+            "time": "2015-01-11 03:59:50"
         },
         {
             "name": "yiisoft/yii2-swiftmailer",
@@ -773,12 +661,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-swiftmailer.git",
-                "reference": "9209999a6db45ef06f307079f95846f6c22e777f"
+                "reference": "e702187bb958f759c849684222ac98c4c1b08dba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-swiftmailer/zipball/9209999a6db45ef06f307079f95846f6c22e777f",
-                "reference": "9209999a6db45ef06f307079f95846f6c22e777f",
+                "url": "https://api.github.com/repos/yiisoft/yii2-swiftmailer/zipball/e702187bb958f759c849684222ac98c4c1b08dba",
+                "reference": "e702187bb958f759c849684222ac98c4c1b08dba",
                 "shasum": ""
             },
             "require": {
@@ -815,7 +703,7 @@
                 "swiftmailer",
                 "yii2"
             ],
-            "time": "2014-12-07 16:46:05"
+            "time": "2015-01-11 03:59:50"
         }
     ],
     "packages-dev": [
@@ -845,6 +733,174 @@
             "extra": {
                 "bower-asset-main": "dist/typeahead.bundle.js"
             }
+        },
+        {
+            "name": "codeception/specify",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Codeception/Specify.git",
+                "reference": "c615e07ec9b91fce9bc34c91c3ed9c4cb935a502"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Codeception/Specify/zipball/c615e07ec9b91fce9bc34c91c3ed9c4cb935a502",
+                "reference": "c615e07ec9b91fce9bc34c91c3ed9c4cb935a502",
+                "shasum": ""
+            },
+            "require": {
+                "myclabs/deep-copy": "~1.1",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Codeception\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Michael Bodnarchuk",
+                    "email": "davert.php@mailican.com"
+                }
+            ],
+            "description": "BDD code blocks for PHPUnit and Codeception",
+            "time": "2014-10-17 00:10:37"
+        },
+        {
+            "name": "codeception/verify",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Codeception/Verify.git",
+                "reference": "f545e1d429b42c15e590cfd7082ed992553f0e77"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Codeception/Verify/zipball/f545e1d429b42c15e590cfd7082ed992553f0e77",
+                "reference": "f545e1d429b42c15e590cfd7082ed992553f0e77",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Codeception/function.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Michael Bodnarchuk",
+                    "email": "davert.php@mailican.com"
+                }
+            ],
+            "description": "BDD assertion library for PHPUnit",
+            "time": "2014-11-23 17:37:46"
+        },
+        {
+            "name": "myclabs/deep-copy",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/myclabs/DeepCopy.git",
+                "reference": "d93c485e71bcd22df0a994e9e3e03a3ef3a3e3f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/d93c485e71bcd22df0a994e9e3e03a3ef3a3e3f3",
+                "reference": "d93c485e71bcd22df0a994e9e3e03a3ef3a3e3f3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "doctrine/collections": "1.*",
+                "phpunit/phpunit": "~4.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DeepCopy\\": "src/DeepCopy/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Create deep copies (clones) of your objects",
+            "homepage": "https://github.com/myclabs/DeepCopy",
+            "keywords": [
+                "clone",
+                "copy",
+                "duplicate",
+                "object",
+                "object graph"
+            ],
+            "time": "2014-11-20 05:11:17"
+        },
+        {
+            "name": "phake/phake",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlively/Phake.git",
+                "reference": "6ee1a4cca7b01786ef386af9a52a668b4286b0b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlively/Phake/zipball/6ee1a4cca7b01786ef386af9a52a668b4286b0b7",
+                "reference": "6ee1a4cca7b01786ef386af9a52a668b4286b0b7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "doctrine/common": "2.3.*",
+                "ext-soap": "*",
+                "hamcrest/hamcrest-php": "1.1.*",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "suggest": {
+                "doctrine/common": "Allows mock annotations to use import statements for classes.",
+                "hamcrest/hamcrest-php": "Use Hamcrest matchers."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Phake": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Lively",
+                    "email": "m@digitalsandwich.com"
+                }
+            ],
+            "description": "The Phake mock testing library",
+            "homepage": "https://github.com/mlively/Phake",
+            "keywords": [
+                "mock",
+                "testing"
+            ],
+            "time": "2015-01-27 15:41:12"
         },
         {
             "name": "phpspec/php-diff",
@@ -886,12 +942,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-codeception.git",
-                "reference": "1ce4c4073f95cf9803d67d357381d0d1d260e89a"
+                "reference": "036ec922a1d080f2d7e81bece0b499717a6562d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-codeception/zipball/1ce4c4073f95cf9803d67d357381d0d1d260e89a",
-                "reference": "1ce4c4073f95cf9803d67d357381d0d1d260e89a",
+                "url": "https://api.github.com/repos/yiisoft/yii2-codeception/zipball/036ec922a1d080f2d7e81bece0b499717a6562d6",
+                "reference": "036ec922a1d080f2d7e81bece0b499717a6562d6",
                 "shasum": ""
             },
             "require": {
@@ -923,7 +979,7 @@
                 "codeception",
                 "yii2"
             ],
-            "time": "2014-12-07 16:46:05"
+            "time": "2015-01-24 08:47:11"
         },
         {
             "name": "yiisoft/yii2-debug",
@@ -931,12 +987,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "7da794a53c4c91d906b1552a7bc73534d60b7307"
+                "reference": "fa92dcf066205df00614adf38cf3ec9188f9a9c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/7da794a53c4c91d906b1552a7bc73534d60b7307",
-                "reference": "7da794a53c4c91d906b1552a7bc73534d60b7307",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/fa92dcf066205df00614adf38cf3ec9188f9a9c8",
+                "reference": "fa92dcf066205df00614adf38cf3ec9188f9a9c8",
                 "shasum": ""
             },
             "require": {
@@ -970,7 +1026,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2014-12-22 21:00:11"
+            "time": "2015-01-20 18:08:25"
         },
         {
             "name": "yiisoft/yii2-gii",
@@ -978,12 +1034,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "be8549ce28fcda68ab54b78aad25d88157b31bd2"
+                "reference": "f8b3959383b99697835e7a5887da7c5c0a5eee7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/be8549ce28fcda68ab54b78aad25d88157b31bd2",
-                "reference": "be8549ce28fcda68ab54b78aad25d88157b31bd2",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/f8b3959383b99697835e7a5887da7c5c0a5eee7d",
+                "reference": "f8b3959383b99697835e7a5887da7c5c0a5eee7d",
                 "shasum": ""
             },
             "require": {
@@ -1019,7 +1075,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2014-12-16 22:36:38"
+            "time": "2015-01-24 14:34:00"
         }
     ],
     "aliases": [],
@@ -1032,9 +1088,13 @@
         "dektrium/yii2-user": 20,
         "yiisoft/yii2-codeception": 20,
         "yiisoft/yii2-debug": 20,
-        "yiisoft/yii2-gii": 20
+        "yiisoft/yii2-gii": 20,
+        "codeception/verify": 20,
+        "codeception/specify": 20,
+        "phake/phake": 20
     },
     "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
         "php": ">=5.4.0"
     },
