@@ -10,8 +10,8 @@ $this->title = 'Home';
     <h1>Welcome to Yii2-user!</h1>
     <p class="lead">Yii2-user  is a flexible user management module for Yii2 that handles common tasks such as registration, authentication and password retrieval.</p>
     <p>
-        <a class="btn btn-success" target="_blank" href="http://yii2-user.readthedocs.org/en/latest/getting-started/installation.html">Getting started</a>
-        <a class="btn btn-primary" target="_blank" href="http://yii2-user.readthedocs.org/en/latest/">Read the documentation</a>
+        <a class="btn btn-success" target="_blank" href="https://github.com/dektrium/yii2-user/blob/master/docs/installation.md">Getting started</a>
+        <a class="btn btn-primary" target="_blank" href="https://github.com/dektrium/yii2-user/blob/master/docs/README.md">Read the documentation</a>
         <a class="btn btn-info" target="_blank" href="https://github.com/dektrium/yii2-user/blob/master/CONTRIBUTING.md">Contribute</a>
     </p>
 </div>

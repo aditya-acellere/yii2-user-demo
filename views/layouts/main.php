@@ -33,17 +33,23 @@ AppAsset::register($this);
                 ],
             ]);
             echo Nav::widget([
-                'options' => ['class' => 'navbar-nav navbar-right'],
+                'options' => ['class' => 'navbar-nav'],
                 'items' => [
                     ['label' => 'About', 'url' => ['/site/about']],
+                    ['label' => 'Community', 'url' => ['/site/community']],
+                ],
+            ]);
+            echo Nav::widget([
+                'options' => ['class' => 'navbar-nav navbar-right'],
+                'items' => [
                     ['label' => 'My profile', 'url' => ['/user/profile'], 'visible' => !Yii::$app->user->isGuest],
                     ['label' => 'Settings', 'url' => ['/user/settings/profile'], 'visible' => !Yii::$app->user->isGuest],
                     Yii::$app->user->isGuest ?
-                        ['label' => 'Login', 'url' => ['/user/security/login']] :
-                        ['label' => 'Logout (' . Yii::$app->user->identity->username . ')',
+                        ['label' => 'Sign in', 'url' => ['/user/security/login']] :
+                        ['label' => 'Sign out (' . Yii::$app->user->identity->username . ')',
                             'url' => ['/user/security/logout'],
                             'linkOptions' => ['data-method' => 'post']],
-                    ['label' => 'Sign up', 'url' => ['/user/registration/register'], 'visible' => Yii::$app->user->isGuest]
+                    ['label' => 'Register', 'url' => ['/user/registration/register'], 'visible' => Yii::$app->user->isGuest]
                 ],
             ]);
             NavBar::end();
