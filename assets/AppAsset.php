@@ -18,16 +18,17 @@ class AppAsset extends AssetBundle
     /** @inheritdoc */
     public $css = [
         'css/site.css',
+        '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/github.min.css',
     ];
 
     /** @inheritdoc */
     public $js = [
+        '//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js',
     ];
 
     /** @inheritdoc */
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
-        'yii\bootstrap\BootstrapThemeAsset',
     ];
 }

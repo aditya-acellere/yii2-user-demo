@@ -30,6 +30,10 @@ return [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName'  => false,
+            'rules' => [
+                'docs' => 'site/docs',
+                'docs/<title:[\w_-]+>' => 'site/docs',
+            ]
         ],
     ],
 ];

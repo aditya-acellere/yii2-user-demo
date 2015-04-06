@@ -11,6 +11,9 @@ return [
         'user' => [
             'class' => 'dektrium\user\Module',
         ],
+        'rbac' => [
+            'class' => 'dektrium\rbac\Module',
+        ],
     ],
     'components' => [
         'cache' => [

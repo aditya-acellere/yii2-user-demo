@@ -20,8 +20,7 @@ AppAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
-<body>
-
+<body style="<?= Yii::$app->controller->route == 'site/index' ? '' : 'padding-top: 60px' ?>">
 <?php $this->beginBody() ?>
     <div class="wrap">
         <?php
@@ -35,6 +34,7 @@ AppAsset::register($this);
             echo Nav::widget([
                 'options' => ['class' => 'navbar-nav'],
                 'items' => [
+                    ['label' => 'Documentation', 'url' => ['/docs']],
                     ['label' => 'About', 'url' => ['/site/about']],
                     ['label' => 'Community', 'url' => ['/site/community']],
                 ],
@@ -54,23 +54,25 @@ AppAsset::register($this);
             ]);
             NavBar::end();
         ?>
-
+        <?php if (Yii::$app->controller->route == 'site/index'): ?>
+        <?= $content ?>
+        <?php else: ?>
         <div class="container">
             <?= Breadcrumbs::widget([
                 'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
             ]) ?>
             <?= $content ?>
         </div>
+        <?php endif ?>
     </div>
-
     <footer class="footer">
         <div class="container">
-            <p class="pull-left">&copy; Dektrium <?= date('Y') ?></p>
-            <p class="pull-right"><?= Yii::powered() ?></p>
+            <p class="text-center">Yii2-user released under the MIT license as a part of Dektrium project.</p>
         </div>
     </footer>
 
 <?php $this->endBody() ?>
+<script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
 <?php $this->endPage() ?>
