@@ -13,7 +13,7 @@
         "yiisoft/yii2-swiftmailer": "~2.0.0@dev",
         "yiisoft/yii2-authclient": "~2.0.0@dev",
         "yiisoft/yii2-bootstrap": "~2.0.0@dev",
-        "dektrium/yii2-user": "0.9.*@dev",
+        "dektrium/yii2-user": "0.9.5",
         "dektrium/yii2-rbac": "dev-master",
         "bower-asset/select2": "*"
     },
